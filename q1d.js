@@ -3,10 +3,10 @@ function generateWelcomeMessages(users) {
 }
 
 const users = [
-    { name: "Alice", role: "admin" },
-    { name: "Bob", role: "student" },
-    { name: "Charlie", role: "instructor" },
-    { name: "David", role: "student"}
+    { name: "mutoni", role: "admin" },
+    { name: "Boby", role: "student" },
+    { name: "Charis", role: "instructor" },
+    { name: "Damoul", role: "student"}
     ];
 
 

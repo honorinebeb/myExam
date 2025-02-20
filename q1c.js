@@ -7,17 +7,17 @@ function findAdmins(users) {
 }
 
 const users1 = [
-    { name: "Alice", role: "admin" },
-    { name: "Bob", role: "student" },
-    { name: "Charlie", role: "admin" },
-    { name: "David", role: "instructor" },
-    { name: "Eve", role: "student" }
+    { name: "mutoni", role: "admin" },
+    { name: "Boby", role: "student" },
+    { name: "Charis", role: "admin" },
+    { name: "Damoul", role: "instructor" },
+    { name: "Emy", role: "student" }
 ];
 
 const users2 = [ 
-    { name: "Bob", role: "student" },
-    { name: "David", role: "instructor" },
-    { name: "Eve", role: "student" }
+    { name: "Boby", role: "student" },
+    { name: "Damoul", role: "instructor" },
+    { name: "Emy", role: "student" }
 ];
 
 console.log(findAdmins(users1)); 

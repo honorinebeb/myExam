@@ -16,10 +16,10 @@ function countRoles(users){
     }
     
     const users = [
-        { name: "Alice", role: "admin" },
-        { name: "Bob", role: "student" },
-        { name: "Charlie", role: "admin" },
-        { name: "David", role: "instructor" },
+        { name: "Mutoni", role: "admin" },
+        { name: "Boby", role: "student" },
+        { name: "Charis", role: "admin" },
+        { name: "Damoul", role: "instructor" },
         
         
     ];
