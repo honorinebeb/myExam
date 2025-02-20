@@ -1,6 +1,6 @@
 function findAdmins(users) {
     const adminNames = users
-        .filter(user => user.role === "admin") 
+        .filter(user => user.role == "admin") 
         .map(user => user.name); 
 
     return adminNames.length > 0 ? adminNames : "No admins found";

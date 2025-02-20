@@ -1,6 +1,6 @@
 function findAdmins(users) {
     return users
-        .filter(user => user.role === "admin") 
+        .filter(user => user.role == "admin") 
         .map(user => user.name); 
 }
 
