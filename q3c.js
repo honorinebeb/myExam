@@ -1,10 +1,10 @@
 function removeDuplicates(arr) {
-    const uniqueArr = [];
+    const MyArr = [];
     for (const num of arr) {
-      if (!uniqueArr.includes(num)) {
-        uniqueArr.push(num);
+      if (!MyArr.includes(num)) {
+        MyArr.push(num);
       }
     }
-    return uniqueArr;
+    return MyArr;
   }
   

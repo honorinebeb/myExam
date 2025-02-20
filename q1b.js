@@ -12,4 +12,4 @@ const users = [
     { name: "Emy", role: "student" }
 ];
 
-console.log(ndAdmins(users)); 
+console.log(findAdmins(users)); 

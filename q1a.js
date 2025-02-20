@@ -1,18 +1,18 @@
-function countRoles(users){
+
     function countRoles(users) {
-        let roleCounts = {}; 
+        let Counts = {}; 
     
         for (let user of users) { 
             let role = user.role;
     
-            if (roleCounts[role]) {
-                roleCounts[role]++; 
+            if (Counts[role]) {
+                Counts[role]++; 
             } else {
-                roleCounts[role] = 1; 
+                Counts[role] = 1; 
             }
         }
     
-        return roleCounts;
+        return Counts;
     }
     
     const users = [
@@ -33,4 +33,3 @@ function countRoles(users){
 
 
 
-}
